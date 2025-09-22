@@ -11,10 +11,10 @@ const SearchFilterComponent = ({
   onSearchChange,
   onFilterChange,
 }) => (
-  <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center">
+  <div className="flex  sm:flex-row gap-3 sm:gap-4 items-stretch sm:items-center">
     
     {/* Search Box */}
-    <div className="relative flex-1 min-w-[200px]">
+    <div className="relative sm:w-auto ">
       <Search
         className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"
         size={16}

@@ -18,15 +18,3 @@ const FooterComponent = () => (
 
 export default FooterComponent;
 
-
-// import React from "react";
-
-// const Footer = () => {
-//   return (
-//     <footer className="h-[8%] bg-white shadow-inner border-t flex items-center justify-center text-sm text-gray-500">
-//       © {new Date().getFullYear()} My App. All rights reserved.
-//     </footer>
-//   );
-// };
-
-// export default Footer;
