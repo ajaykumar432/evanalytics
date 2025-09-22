@@ -1,16 +1,3 @@
-// import React from 'react'
-// import { NavLink } from 'react-router-dom'
-
-// const Sidebar = () => {
-//   return (
-//     <div>
-//        <NavLink to="/Dashboard" >Dashboard</NavLink>
-//     </div>
-//   )
-// }
-
-// export default Sidebar
-
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaTachometerAlt, FaFileInvoiceDollar, FaCog, FaChartBar, FaBolt, FaShuttleVan } from "react-icons/fa"; // added FaBolt

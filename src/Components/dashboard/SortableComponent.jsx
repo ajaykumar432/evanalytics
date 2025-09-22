@@ -1,31 +1,3 @@
-
-// // Sortable Header Component
-// import { ChevronDown, ChevronUp} from 'lucide-react';
-
-// import React from 'react'
-// const SortableHeaderComponent = ({ column, children, sortConfig, onSort, className = "" }) => (
-//   <th 
-//     className={`text-left p-4 font-medium text-gray-700 border-r cursor-pointer hover:bg-gray-100 select-none ${className}`}
-//     onClick={() => onSort(column)}
-//   >
-//     <div className="flex items-center gap-2">
-//       {children}
-//       <div className="flex flex-col">
-//         <ChevronUp 
-//           size={12} 
-//           className={`${sortConfig.key === column && sortConfig.direction === 'asc' ? 'text-blue-600' : 'text-gray-400'}`}
-//         />
-//         <ChevronDown 
-//           size={12} 
-//           className={`${sortConfig.key === column && sortConfig.direction === 'desc' ? 'text-blue-600' : 'text-gray-400'} -mt-1`}
-//         />
-//       </div>
-//     </div>
-//   </th>
-// );
-
-// export default SortableHeaderComponent;
-
 // Sortable Header Component
 import React from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";

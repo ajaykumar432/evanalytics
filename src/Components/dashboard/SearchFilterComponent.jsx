@@ -1,39 +1,3 @@
-// // Search and Filter Component
-// import React from 'react'
-// import { ChevronDown, ChevronUp, Download, Code, Search, Filter, ChevronLeft, ChevronRight } from 'lucide-react';
-
-// const SearchFilterComponent = ({ searchTerm, selectedFilter, onSearchChange, onFilterChange }) => (
-//   <div className="flex gap-4 items-center">
-//     <div className="relative flex-1 max-w-md">
-//       <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={16} />
-//       <input
-//         type="text"
-//         placeholder="Search data..."
-//         value={searchTerm}
-//         onChange={(e) => onSearchChange(e.target.value)}
-//         className="w-full pl-10 pr-4 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-//       />
-//     </div>
-//     <div className="relative">
-//       <select
-//         value={selectedFilter}
-//         onChange={(e) => onFilterChange(e.target.value)}
-//         className="appearance-none bg-white border rounded-lg px-4 py-2 pr-8 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
-//       >
-//         <option value="all">All Vehicles</option>
-//         <option value="bev">Battery Electric (BEV)</option>
-//         <option value="phev">Plug-in Hybrid (PHEV)</option>
-//         <option value="tesla">Tesla Only</option>
-//         <option value="eligible">CAFV Eligible</option>
-//       </select>
-//       <Filter className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none" size={16} />
-//     </div>
-//   </div>
-// );
-
-// export default SearchFilterComponent;
-
-
 // Search and Filter Component
 import React from "react";
 import {

@@ -1,13 +1,3 @@
-// import React from 'react'
-
-// const Header = () => {
-//   return (
-//     <div>Header</div>
-//   )
-// }
-
-// export default Header
-
 import React, { useState, useRef, useEffect } from "react";
 import { Bell, Menu, UserCircle, LogOutIcon, ChevronDown } from "lucide-react";
 import { useNavigate } from "react-router-dom";

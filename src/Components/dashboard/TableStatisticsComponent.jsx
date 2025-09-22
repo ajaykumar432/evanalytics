@@ -1,27 +1,3 @@
-// // Table Statistics Component
-// import React from 'react'
-// const TableStatisticsComponent = ({ data }) => (
-//   <div className="border-t bg-gray-50 p-4">
-//     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
-//       <div>
-//         <span className="font-medium">Total Records:</span> {data.length}
-//       </div>
-//       <div>
-//         <span className="font-medium">BEV:</span> {data.filter(v => v.electricVehicleType.includes('BEV')).length}
-//       </div>
-//       <div>
-//         <span className="font-medium">PHEV:</span> {data.filter(v => v.electricVehicleType.includes('PHEV')).length}
-//       </div>
-//       <div>
-//         <span className="font-medium">CAFV Eligible:</span> {data.filter(v => v.cafvEligibility.includes('Clean Alternative')).length}
-//       </div>
-//     </div>
-//   </div>
-// );
-
-// export default TableStatisticsComponent;
-
-
 // TableRowComponent.jsx
 import React from "react";
 import VehicleTypeBadge from "./VehicleTypeBadge"; // fixed typo Budge -> Badge

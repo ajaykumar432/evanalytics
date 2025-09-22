@@ -1,27 +1,3 @@
-// // Table Row Component
-// import React from 'react'
-// import { ChevronDown, ChevronUp, Download, Code, Search, Filter, ChevronLeft, ChevronRight } from 'lucide-react';
-
-// import VehicleTypeBadge from './VehicleTypeBudge';
-// const TableRowComponent = ({ vehicle, index }) => (
-//   <tr className={`${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-blue-50 cursor-pointer`}>
-//     <td className="p-4 border-r text-sm font-mono">{vehicle.vin}</td>
-//     <td className="p-4 border-r text-sm">{vehicle.county}</td>
-//     <td className="p-4 border-r text-sm">{vehicle.city}</td>
-//     <td className="p-4 border-r text-sm">{vehicle.state}</td>
-//     <td className="p-4 border-r text-sm">{vehicle.modelYear}</td>
-//     <td className="p-4 border-r text-sm font-medium">{vehicle.make}</td>
-//     <td className="p-4 border-r text-sm">{vehicle.model}</td>
-//     <td className="p-4 border-r text-sm">
-//       <VehicleTypeBadge vehicleType={vehicle.electricVehicleType} />
-//     </td>
-//     <td className="p-4 border-r text-sm">{vehicle.electricRange} miles</td>
-//     <td className="p-4 text-sm">${vehicle.baseMSRP.toLocaleString()}</td>
-//   </tr>
-// );
-
-// export default TableRowComponent;
-
 // TableRowComponent.jsx
 import React from "react";
 import VehicleTypeBadge from "./VehicleTypeBudge";

@@ -1,23 +1,3 @@
-// import React from 'react'
-// import Sidebar from '../Components/sidebar/Sidebar'
-// import { Outlet } from 'react-router-dom'
-// import Footer from '../Components/footer/Footer'
-
-// const Layout = () => {
-//   return (
-//     <div>
-//         <div>
-//             <Sidebar/>
-//         </div>
-//         <div><Outlet/></div>
-//         <div><Footer/></div>
-//     </div>
-//   )
-// }
-
-// export default Layout
-
-
 import React, { useState } from "react";
 import Sidebar from "../Components/sidebar/Sidebar";
 import Topbar from "../components/header/Header";
